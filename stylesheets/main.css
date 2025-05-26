@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.navbar-link{
+    @apply hover:text-blue-500 transition-all duration-200 hover:translate-x-2
+}
+
+img{
+    @apply w-40 rounded-t-full  rounded-e-full rounded-bl-full
+}
+
+button{
+    @apply bg-white text-black p-1 rounded-xl
+}
