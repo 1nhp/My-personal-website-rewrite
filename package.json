@@ -1,19 +1,4 @@
 {
-  "name": "my-personal-website",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/1nhp/My-personal-website-rewrite#readme",
-  "bugs": {
-    "url": "https://github.com/1nhp/My-personal-website-rewrite/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/1nhp/My-personal-website-rewrite.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./stylesheets/main.css -o ./stylesheets/output.css --minify"
   },
