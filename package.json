@@ -1,3 +1,10 @@
-"scripts": {
-  "build": "tailwindcss -i ./stylesheets/main.css -o ./stylesheets/output.css --minify"
+{
+  "name": "maritosu",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i ./stylesheets/main.css -o ./stylesheets/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
 }
