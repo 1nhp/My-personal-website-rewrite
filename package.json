@@ -1,0 +1,3 @@
+"scripts": {
+  "build": "tailwindcss -i ./stylesheets/main.css -o ./stylesheets/output.css --minify"
+}
