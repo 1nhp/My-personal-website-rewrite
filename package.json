@@ -2,12 +2,14 @@
   "scripts": {
     "build": "tailwindcss -i ./stylesheets/main.css -o ./stylesheets/output.css --minify"
   },
+
   "dependencies": {
     "@fontsource/poppins": "^5.2.6",
     "@tailwindcss/cli": "^4.1.7"
   },
+
   "devDependencies": {
-    "tailwindcss": "^4.1.7",
-    "fontsource/poppins": "^5.2.5"
+    "tailwindcss": "^4.1.7"
   }
+
 }
