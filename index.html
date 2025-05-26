@@ -2,37 +2,60 @@
 
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />   
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Maritosu's Website</title>
         <link rel="icon" href="images/PFP_PNG.png">
         <link rel="stylesheet" href="./stylesheets/output.css"/>
     </head>
 
-    <body class="bg-neutral-900 text-white m-0 p-0 font-">
+    <body class="bg-neutral-900 text-white m-0 p-0 text-wrap">
 
     <!--Navbar--> 
 
-        <div class="flex flex-wrap items-center justify-center gap-10 p-4 bg-neutral-800">
-            <a class="navbar-link" href="https://rickroll.com">Home</a>
-            <a class="navbar-link href="https://rickroll.com">News</a>        
-            <a class="navbar-link href="https://rickroll.com">Contact</a>
-            <a class="navbar-link href="https://rickroll.com">Goodies</a>  
+    <div class="sticky top-0 overflow-hidden gap-10 p-2 bg-neutral-800 justify-center flex">
+        <div class="flex flex-row flex-wrap justify-start items-start">
+            <img class="nav-pfp" src="images/PFP_PNG.png"></img>
+            <div class="pl-2">
+                <h1>Maritosu</h1>
+                <h1 class="text-neutral-400">15 yo.</h1>
+            </div>                    
         </div>
+            <div class="flex flex-wrap justify-center items-center gap-10">
+                <a class="navbar-link" href="https://rickroll.com">Home</a>
+                <a class="navbar-link" href="https://rickroll.com">Projects</a>
+                <a class="navbar-link" href="https://rickroll.com">Blog</a>
+                <a class="navbar-link" href="pages/goodies.html">Goodies</a> 
+            </div>        
+    </div>
 
         <!--Content Container-->
-        <div class="flex justify-center items-center pt-60 p-10">
+        <div class="flex justify-center items-center flex-col pt-60 p-10">
 
             <!--Introduction container-->
-                <div class="w-100 p-2 flex justify-center items-center flex-col">
-                    <img src="./images/PFP_PNG.png"></img>               
-                    <h1 class="font-sans font-bold text-2xl pt-10">Hi im Maritosu! 👋</h1>                                                               
-                    <h1>Im a 15 year old Juniour Web Developer, GMS2 Coder, Small Content Creator, and Gamer i have 100% 9 games overall!</h1>  
-                    <div class="flex pt-7 flex-row gap-8">
-                        <button>Click me</button>      
-                        <button>Click me</button>                              
-                    </div>                    
+                <div class="w-70 p-2 pb-10 flex justify-center flex-col">
+                    <div class="flex justify-center">
+                        <img class="pfp" src="./images/PFP_PNG.png"></img>
+                    </div>
+                    <h1 class="font-sans font-bold text-2xl pt-5 pb-2">Hi im Maritosu! <span class="animate-pulse">👋</span></h1>
+
+                    <h1>Im a 15 year old Juniour Web Developer, GMS2 Coder, Small Content Creator, and Gamer i have 100% 9 games overall!</h1> 
+
+                    <div class="flex items-center justify-center pt-10 flex-row gap-8">
+                        <a href="https://github.com/1nhp">
+                            <button><i><img src="images/github_icon.svg">Github</i></button>
+                        </a>
+                        <a href="https://www.youtube.com/@Maritosu">
+                            <button><i><img src="images/youtube_icon.svg">Youtube</i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <h1>So feel free to explore around my website with navigational bar!</h1>
+
+                <!--Footer-->
+                <div class="flex justify-center items-center pt-20">
+                    <h1>© 2025 Maritosu</h1>
                 </div>
             </div>
-
     </body>
 </html>
