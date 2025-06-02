@@ -1,0 +1,17 @@
+TOTAL DEVELOPMENT TIME: 4 Days
+TOTAL BREAKS: 3 Days
+CODENAME: firstGameProject
+FRAMEWORK NAME: MBGMS2fmwork
+
+05/25/2025 - Add level 15 which is about the player catching mario with mouse
+           - Add level 16 which is about kirby getting sports whilist avoiding bowser
+	   - Change Version number from 1.1 to 1.2
+
+05/27/2025 - Add level 17 which is about the player guessing which option is right
+	   - Bring back saving format to ini cause there were issues saving multiple variables
+	   - Implement sound music options menu that actually works
+
+06/1/2025 - Add level 18 which is about player controlling donkey kong barrel that spins fast
+
+06/2/2025 - Add level 19 which is about the player which right mario to defeat
+	  - Add level 20 which is about the player shooting bullets from the airship (based on level 5)
