@@ -3,10 +3,14 @@ TOTAL BREAKS: 3 Days
 CODENAME: firstGameProject
 FRAMEWORK NAME: MBGMS2fmwork
 
+
+		  For Devlog #2
 05/25/2025 - Add level 15 which is about the player catching mario with mouse
            - Add level 16 which is about kirby getting sports whilist avoiding bowser
-	   - Change Version number from 1.1 to 1.2
+	   	   - Change Version number from 1.1 to 1.2
 
+
+		  For Devlog #3
 05/27/2025 - Add level 17 which is about the player guessing which option is right
 	   - Bring back saving format to ini cause there were issues saving multiple variables
 	   - Implement sound music options menu that actually works
