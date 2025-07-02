@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Maritosu's Website</title>
         <link rel="icon" href="images/PFP_PNG.png">
-        <link rel="stylesheet" href="./stylesheets/output.css"/>
+        <link rel="stylesheet" href="stylesheets/output.css"/>
+        <script src="/src/scripts/update_year.js" defer></script>
+        <script src="/src/scripts/birthday.js" defer></script>
     </head>
 
     <body class="bg-neutral-900 text-white m-0 p-0 text-wrap">
@@ -21,9 +23,9 @@
             </div>                    
         </div>
             <div class="flex flex-wrap justify-center items-center gap-10">
-                <a class="navbar-link" href="/pages/projects.html">Projects</a>
-                <a class="navbar-link" href="/pages/blog.html">Blog</a>
-                <a class="navbar-link" href="/pages/goodies.html">Goodies</a> 
+                <a class="navbar-link" href="pages/projects.html">Projects</a>
+                <a class="navbar-link" href="pages/blog.html">Blog</a>
+                <a class="navbar-link" href="pages/goodies.html">Goodies</a> 
             </div>        
     </div>
 
@@ -32,12 +34,11 @@
 
             <!--Introduction container-->
                 <div class="w-70 p-2 pb-10 flex justify-center flex-col">
-                    <div class="flex justify-center"><img class="pfp" src="./images/PFP_PNG.png"></img></div>
+                    <div class="flex justify-center"><img class="pfp" src="images/PFP_PNG.png"></img></div>
                     
                     <h1 class="font-sans font-bold text-2xl pt-5 pb-2">Hi im Maritosu! <span class="animate-pulse">👋</span></h1>
-
+                    <h1 class="text-2xl pb-2"><span id="bday"></span></h1>
                     <h1>Im a 15 year old Juniour Web Developer, GMS2 Coder, Small Content Creator, and Gamer i have 100% 9 games overall!</h1> 
-
                     <div class="flex items-center justify-center pt-10 flex-row gap-8">
                         <a href="https://github.com/1nhp">
                             <button><i><img src="images/icons/github_icon.svg">Github</i></button>
@@ -52,7 +53,7 @@
 
                 <!--Footer-->
                 <div class="flex justify-center items-center pt-10">
-                    <h1>© 2025 Maritosu</h1>
+                    <h1>© <span id="copyright-year"></span> Maritosu</h1>
                 </div>
             </div>
     </body>

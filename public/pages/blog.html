@@ -5,9 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />   
         <title>Maritosu's Website</title>
         <link rel="icon" href="/images/PFP_PNG.png">
-        <link rel="stylesheet" href="/stylesheets/output.css"/>
-        <script src="/scripts/articlebtn.js" defer></script>
-        <script src="/scripts/articlesbtn.js" defer></script>
+        <link rel="stylesheet" href="../stylesheets/output.css"/>
+        <script src="/src/scripts/article_viewer.js" defer></script>
     </head>
 
     <body class="bg-neutral-900 text-white m-0 p-0">
@@ -16,30 +15,32 @@
 
     <div class="sticky top-0 overflow-hidden gap-10 p-2 bg-neutral-800 justify-center flex">
         <div class="flex flex-row flex-wrap justify-start items-start">
-            <img class="nav-pfp" src="/images/PFP_PNG.png"></img>
+            <img class="nav-pfp" src="../images/PFP_PNG.png"></img>
             <div class="pl-2">
                 <h1>Maritosu</h1>
                 <h1 class="text-neutral-400">15 yo.</h1>
             </div>                    
         </div>
             <div class="flex flex-wrap justify-center items-center gap-10">
-                <a class="navbar-link" href="/index.html">Home</a>
-                <a class="navbar-link" href="/pages/projects.html">Projects</a>
+                <a href="../index.html">Home</a>
+                <a href="../pages/projects.html">Projects</a>
             </div>        
     </div>
 
 <!--Content Container-->
 <div class="flex-row p-3 gap-6 sm:flex w-full h-full" id="blogs">
-    <div class="flex flex-col">
+    <div class="flex-col">
         <h1 class="text-4xl pb-5">BLOGS</h1>
         <div class="flex flex-col w-50 gap-2">
             <h1 class="text-3xl">Articles</h1>            
             <h1 class="text-xl">The project</h1>
-            <a class="navbar-link pl-5" href="/pages/blog/website-rewrite.html">The website rewrite and why it'll change everything forever</a>
+            <a class="navbar-link pl-5" href="blog/website-rewrite.html">May 27, 2025 <br> The website rewrite</a>
             <h1 class="text-xl">About my life</h1>
-            <a class="navbar-link pl-5" href="/pages/blog/movingout.html">Moving out to the other house and why I think it wasn't a very good choice</a>
+            <a class="navbar-link pl-5" href="blog/movingout.html">June, 25 2025 <br> Moving out to the other house</a>
         </div>
     </div>
+
+    <!--Article Viewer-->
     <div class="hidden md:flex flex-col w-[70vw] h-[70vh] lg:w-[90vw] lg:h-[90vh]" id="article-viewer">
             <h1 id="article-title" class="text-xl">Select article</h1>
             <iframe id="article-frame" src="" class="w-full h-full box-border bg-neutral-800 border-2 overflow-hidden border-neutral-500 rounded-2xl"></iframe>
