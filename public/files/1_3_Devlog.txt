@@ -1,5 +1,5 @@
-TOTAL DEVELOPMENT TIME: 4 Days
-TOTAL BREAKS: 17 Days
+TOTAL DEVELOPMENT TIME: 6 Days
+TOTAL BREAKS: 32 Days
 CODENAME: firstGameProject
 FRAMEWORK NAME: MBGMS2fmwork
 DEADLINE: October, 5 2025
@@ -38,3 +38,15 @@ DEADLINE: October, 5 2025
 09/10/2025 - Reimplement the room transition system entirely so that the room transitions actually work correctly
 
 09/11/2025 - Fix bugs
+
+09/25/2025 - Change the background to gold on the title screen if the player
+           - has completed the game (for now)
+
+           - Add the congratulations dialog once the player completes the game
+           - Add level 28 which is about the player throwing the barrel
+           - at Marios
+
+           - Implement barrel mechanic
+           - Do the arrow as an indicator to help focus on throwing the barrel
+           
+           

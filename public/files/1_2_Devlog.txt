@@ -1,9 +1,10 @@
-TOTAL DEVELOPMENT TIME: 4 Days
-TOTAL BREAKS: 3 Days
+TOTAL DEVELOPMENT TIME: 5 Days
+TOTAL BREAKS: 6 Days
 CODENAME: firstGameProject
 FRAMEWORK NAME: MBGMS2fmwork
+DEADLINE: June, 5 2025, [PASSED]
 
-
+NOTICE: I was quite productive those weeks thus is why it took me only 5 days to finish 1.2 update for my fangame!
 
 		  For Devlog #2
 05/25/2025 - Add level 15 which is about the player catching mario with mouse
@@ -20,3 +21,16 @@ FRAMEWORK NAME: MBGMS2fmwork
 
 06/2/2025 - Add level 19 which is about the player which right mario to defeat
 	  - Add level 20 which is about the player shooting bullets from the airship (based on level 5)
+
+06/4/2025 FINISH DAY - Add level 21 which is based off level 1 except marios move and wrap faster
+		     - Add level 22 which is about the player launching nuke to kill boss mario
+                     - Add level 23 which is about the player stealing nintendo's game and going away with it
+                     - Add level 24 which is about the player chossing right difficulty
+                     - Add level 25 which is an rehash of level 15 fortunately
+		     - Update credits screen to include the Logo and more music used for fangame
+		     - Add bullet bill and spike bomb scaling animation on creation using lerp
+                     - Add fading for the nintendo object using lerp
+		      - Update game icon text version to 1.2
+                      - Fix bothering bugs
+                      - Make mario bash 1.1 release thumbnail
+                      - Make trailer! and close this development log hopefully devlog more about 1.3!

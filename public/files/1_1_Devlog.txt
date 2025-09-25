@@ -1,0 +1,71 @@
+TOTAL DEVELOPMENT TIME: 17 Days
+TOTAL BREAKS: 11 Days
+CODENAME: firstGameProject
+FRAMEWORK NAME: MBGMS2fmwork
+
+04/29/2025 - Make level 1 whereas it introduces the player how to play the fangmae disclaimer screen and main menu screen
+
+04/30/2025 - Make HUD and Ranking system add level complete screen add Level 2 which is a bit tricky cause marios
+           - teleport randomly
+
+05/01/2025 - Add next level reset level And make your own dialog system add Level 3 which is almost same as level 1 except
+           - Mario objects accelerate faster
+
+05/02/2025 - Add confirmation screen for restart button add pause menu add level 5 which is about using airstrike plane add demo ending screen
+           - To kill marios
+
+05/03/2025 - Optimize code a bit Introduce my Remake in MMP Discord Fix depth layer bugs distribute the game on youtube
+           - Remove unused variables remove gameover screen
+           - Fix bug that causes level variable to not be reset after being went to the demo ending screen
+           - Delete some functions that are pointless to use
+
+05/04/2025 - Add level 6 which is about moving spike and using it to kill marios
+           - add spike gimmick add level6_bg use Bart bashes level 10 music
+
+05/06/2025 - Add level 7 which is about to catch mario with the bullet bill on right timing
+           - Fix some game breaking bugs
+
+05/09/2025 - Add level 8 which is about to kill mario with the chest killer
+
+05/10/2025 - Add Level 9 which is an bossfight mario that throws spikes at you and your an tornado who shoots bullets to kill mario
+           - Add HP Bar for BOSS MARIO and the tornado
+
+05/11/2025 - Add black panel with smooth sliding up and down animation when you pause
+           - Change UI Design entirely to fit with game's personality
+           - Some BUG Fixes
+
+05/12/2025 - Add level 10 which is about killing marios on a kart that accelerate over time
+           - Add level 11
+
+05/14/2025 - Add level 12 which is about you being lucky
+           - Scrap pacman moving randomly cause it was a pointless idea
+
+05/16/2025 - Add level 13 which is about you survivng from bowser for 30 seconds
+           - Added an working W.I.P save system!
+           - Add scr_wrong() function
+
+05/21/2025 - Might be one of the hugest development day of this project yet!
+           
+	   - Rework title screen to use scrolling checkboard background thanks go GMS2 having the tile
+	   - Repeating feature!
+
+	   - Add intro animation to title screen
+           - Add options GUI that currently does nothing i may finish it in 1.2 when i have time
+	   - Fix bugs related with savefile system
+	   - Implement Debug menu (thanks to gms2 using dearIMGUI) which was useful to track and fix bugs
+           - Switch audio mode to streaming which decrease ram usage from 85mb to 16mb!
+	   - Refactor code add comments indent it properly with semicolons
+
+05/22/2025 - Have implemented a way to encrypt savefiles im sorry to yall who wants cheat
+           - But this is done to make saving and loading faster plus preventing savefile corruption
+	   - Switch music from using 32000hz to 22200hz for performance and maintaining game size
+	   - Because audio uses streamed mode i thought i'd be cool making what the hell sound bitcrushed
+	   - By using 5220Hz result might be different on other systems though
+           - Add level 14 which is about Kirby running away from nintendo although sonic used him for
+           - Nintendo object to chase
+	   - Finish credits screen add notice that the Project was made in GMS2
+
+05/23/2025 FINISH DAY - Final touches mention more music used in the credits screen
+                      - Fix bothering bugs
+                      - Make mario bash 1.1 release thumbnail
+                      - Make trailer! and close this development log hopefully devlog more about 1.2!
