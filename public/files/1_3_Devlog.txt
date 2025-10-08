@@ -1,8 +1,10 @@
-TOTAL DEVELOPMENT TIME: 6 Days
-TOTAL BREAKS: 32 Days
+TOTAL DEVELOPMENT TIME: 7 Days
+TOTAL BREAKS: 43 Days
 CODENAME: firstGameProject
 FRAMEWORK NAME: MBGMS2fmwork
-DEADLINE: October, 5 2025
+DEADLINE: October, 5 2025 [PASSED (with due)]
+
+NOTICE: School absolutely crushed the development time including me having a burnout...
 
 08/19/2025 - Optimize the title screen to not do any unnecessary lerping thus resulting in performance being decreased
 	   - Remove the cursor hovering for Windows entirely as its currently quite buggy
@@ -48,5 +50,13 @@ DEADLINE: October, 5 2025
 
            - Implement barrel mechanic
            - Do the arrow as an indicator to help focus on throwing the barrel
-           
-           
+
+09/28/2025 - Added the Flying Gun as a gimmick that lets the player shoot the bullets that also scale weirdly
+           - Added level 29 where the player controls an Flying Gun that has to defeat all the Marios
+           - Change the asset structure entirely in the project folder
+           - Change levels A rank requirements to be fair
+
+10/8/2025 FINISH DAY  - Fix bothering bugs
+                      - Add level 30 which is about the player defeating Jet from Sonic Riders! (fortunately this boss is not finished yet)
+                      - Make mario bash 1.3 release thumbnail
+                      - Make trailer! and close this development log hopefully devlog more about 1.3!
