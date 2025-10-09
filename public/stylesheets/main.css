@@ -31,3 +31,7 @@ button{
 i{
     @apply flex flex-wrap justify-center items-center gap-1
 }
+
+img{
+    @apply w-96 h-96
+}
