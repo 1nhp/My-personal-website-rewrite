@@ -1,0 +1,224 @@
+Build: December 6, 2025 21:53
+Version: 1.4 (development)
+Game Engine: Godot 4.6
+Environment: 2D
+Genre: Tap and click, action
+Type: Fangame, Fan creation
+
+Development started: 10/28/2025
+Development time spent on: 28 days
+Deadline: January 2026 [PASSED]
+
+Development log
+	Day 1: 	+ Add disclaimer screen
+			+ Add title screen with bouncy animation
+			+ Add User interface buttons that have scaling up and down animation,
+			+ when the player clicks on the button
+			+ Implement the game as a sub-scene that controls the game when the
+			  level has been started, completed, etc along with the level scene t
+			  hat was used for making the levels later on the development
+			+ Add mario as a enemy object that the player has to click on
+			  to defeat
+			+ Add level 1
+			+ Add level complete screen that is animated using animation player
+			  (like in Sonic Unleashed!)
+			
+	Day 2:
+			+ Replace placeholder (grey) level backgrounds with the ones
+			  from the game
+			+ Add HUD to the game sub-scene
+			+ Add level 2
+			+ Add level 3
+			+ Add confirmation dialog (just like that one from the game)
+			+ Add explosion effect
+			
+	Day 3:	+ Implement saving / loading system that saves the progress (just like in the game)
+			- Remove bouncy animations from confirmation dialog
+			+ Add level 4
+			+ Add bulletbill object that shoots when you press the action/a/z button
+			+ Add rank preview along with the timer ingame
+			
+	Day 4:  + Add level 5
+			+ Add options menu, which can be accessed in the title screen and in pause menu 
+	
+	Day 5:	+ Add level 6 which is about the player controlling the spike
+			+ Add pause menu which can be, accesed from the pause button
+			+ Add pause button that hides after player holds mouse button on the
+			  screen after 2 seconds (was an issue in the original game)
+	
+	Day 6: + Pause the game if the player is neither on the pause menu, or the
+			 confirmation menu is currently open
+		   - Changed explosion particle to an sprite (didn't like how the particle one looked)
+		   + Add level 7
+		   + Refactored, shortened game project resources, folders
+		   + Add credits, debug menu music asset (currently unused)
+		   + Add check for android to change disclaimer help text (because i didn't test on android yet it counts as unused)
+		
+	Day 7: + Add level 9 (not playable yet + is broen)
+		   + Finish level 8 (add missing description rank requirements)
+		   + Fix not setting the sound and music volume from the savedata
+		   + Use fractions for sliders in settings menu instead of decibels
+		
+	Day 8: + Finish level 9 (add mario as a boss)
+		   + Add Boss class for godot (useful for reusing in later bosses)
+		   + Add gameover screen when the player loses (this might be too extreme so difficulty options might be added)
+		   + Add hp bar meter for the boss and the player on level 9
+		   + Add damage animation to the boss which hints it red and scales it up then down
+		   + Add bl##d particle
+		   + Add level 10 (along with the other mario death sound)
+		   + Add level 11 (not finished yet the description is
+						  missing and the pacman object doesnt move yet)
+		   + Add troll room if the player tries to access the debug menu on release build
+				 that contains video of IshowSpeed getting jumpscared in sleep stream
+						
+	Day 9: + Finish level 11 (add description finish pacman object)
+		   + Implement second stage system for level 11 (not reusable currently)
+		   + Use top level layering for half of the objects
+		   + Make ui be the top of all layers objects (so that it doesnt look weird)
+		   + Implement life system that is obtainable by clicking on the life icon
+			 object that has a 10% chance to spawn on a random position
+		   + Instead of getting a gameover directly when losing do it only when the
+			 player has less than 0 lives
+		   + Add level 11
+		   + Add level 12
+		   + Add win/lose picker object for level 12
+		   + Add life particle
+		   + Add life icon object
+		   + Add loop animations for the life icon as well as the dissapearing animation
+			 and the moving animation that goes into the life icon (in the ui layer)
+		   + Add debug information ui scene (and warn the user that this is a development
+											nt build and should not distribute it)
+		   = Update debug menu
+
+	Day 10:
+		+ The life pickup object now spawns on the top instead of nowhere and is falling like in Plants Vs. Zombies
+		+ The life pickup object will no longer spawn if the level time is more than 50 to prevent lives farming
+		+ Add level 13 (just like in the original game)
+		
+	Day 11: + Fix the bug in level 12 that causes the chanceto_lose objec to run twice
+			+ Add explosion effect when Kirby object dies
+			= Update debug menu
+			+ Adapt revision version number [game version, (type), (revision)]
+			+ Pause the game node if the player is on the gameover screen (to prevent backgrounds on the background to cause other bugs)
+			+ Pause then unpause the game on the fade transition
+			+ Add level 14 (broken not playable yet missing description)
+
+	Day 12: + Add level 15 (just like in the original game)
+			+ Add miss behaviour to mario if the player tries to click on
+			  in level 15
+			+ Update debug menu
+			+ Finish level 14 (add missing description finish chasing object)
+			+ Add level 16 (broken not playable yet missing description)
+			+ Some of the music for levels is now being looped along with the main menu theme!
+
+	Day 13: + Finish level 16 (add missing descriptions add collectable
+			 				   event in the Level class so thats its reusable later)
+			+ Add item object that has the same animations and the particles as the life object
+			+ Fix ranking requirement in level 14 (might have to add NotARanked level
+								variable to not count levels that do not have rank requirements)
+			= Update debug menu
+	Day 14: + Improve level 14, 15, 16 descriptions provide hint message
+			+ Playtest all levels
+			= Update debug menu
+			+ Add debu function to reload current room by pressing r on keyboard
+			+ Add level 17 which is an trivia
+			+ Add credits screen which can be accessed in settings menu
+			+ Add image fade in credits screen that repeats
+	Day 15: + Add level 18 (not finished till next day dk barrel object isn't implemented yet')
+	
+	Day 16: + Fix the bug that causes mario to be killed by clicking on it in level 6
+			+ Implement rotating dk barrel that follows the mouse
+			
+	Day 17: + Add level 19 which is about guessing which right mario to kill
+			+ Increase confirmation dialog animation speed so that its easier to click
+
+	Day 18: + Add level 20 which is about being almost same as level 5
+	
+	Day 19: + Add delay for random position for Mario in level 15 to 0.1 miliseconds
+			+ Mario variables are now being changed from the level script as a massive refactor (for consistency and reusability)
+			+ Add position acceleration for the Mario object as an toggle
+			+ Fix bug with chest, bulletbill not killing marios, boss mario due to forgetting to rename it to mario_hurtbox
+			+ Add level 21 (just like in the original game)
+	Day 20: + Add level 22 (just like in the original game)
+	
+	Day 21: + Finish level 23 (add level complete hitbox, finish descriptions)
+			+ Add level 24 (just like in the original game)
+			+ Add level 25 (just like in the original game)
+			
+	Day 22: + Add level 26 (just like in the original game)
+			+ Add powerup object that may be reusable later
+			+ Implement camera shake function
+			+ Add scaling, black fading out animation for starman mario
+			+ Add questionblock object that may be reusable later
+			+ Add HUD hiding animation whenever the player pauses the game, or loses
+			+ Use z ordering system for objects
+			+ HUD is now in canvas layer so that it doesnt get affected by the camera
+			
+	Day 23: + Add Intro when player starts game, that can be toggled in settings
+			+ Created CheckBox class so that it can be used later
+			+ Pause the game instead of deleting all the objects when the level is complete
+			+ Use group system instead of finding nodes for some scenes no more get_parent'ing
+			+ Change mario death sound to bart ow from bart bash in level 3
+			+ Fix bug that causes bulletbill to shoot when being shoot from airstrike plane
+			+ Add level 27 (not finished yet, missing descriptions, not playable)
+			
+	Day 24: + Improved debug menu highlight to be able to repeat
+	
+	Day 25: + Added custom interactable mouse cursor that changes its sprite when its hovering
+			  something
+			+ Fix issues related to delta-time
+			+ Bowser will no longer shake fast in level 13, 16
+			
+	Day 26: + Fix mouse cursor shaking when the camera is shaking due to not using
+	          get_viewport() to get cursor position
+
+	Day 27: - Implementing AudioManager was a nightmare nad never look will consider using resonate
+                  result: 1 week break
+				
+	1 week later...
+	
+	Day 28: + Integrate resonate onto the game
+			Replace old AudioManager with resonate and replace all audio play functions with
+			that plugin
+			+ Add crossfade when the player pauses the game or completes the level to feel more dynamic
+			+ Increase transition screen delay to give resources more time to load
+			+ Add an loading screen
+
+	Day 29: + Finish integrating new audio plugin Resonate onto the game!
+			+ The coin sound when the player is on the disclaimer screen how has random pitch
+			  to sound less repetitive
+			
+	Day 30: + Test the game one more time on Android and adress the issues crashing the game
+			  on that platform
+		
+	Day 31: + Fix the crash that is being caused when changing scene to the intro with debug menu
+	
+	Month 1, Day 1: + Use the compressor audio effect on the Sounds audio bus
+					  so that overlapping sounds aren't loud
+					+ Marios can now complete the level after death on Level 19, 24
+					
+	Month 1, Day 2: + Add trail to the blueshell
+					+ Add explosion effect to the blueshell when it explodes
+					
+	Month 1, Day 3: + Add level 28
+					+ Add second mode for the donkey kong barrel which lets you
+					  throw it with the action key!
+			
+	Month 1, Day 4: + Update project to Godot 4.6 because as of 4.6 there has been some performance
+					  updates, the performance of the game has been likely improved!
+					+ Because of Godot 4.6 regression focus mode on buttons has been removed
+					+ Add more debug info
+					+ Added more options like Fullscreen, vsync, framerate limiter checkbox
+					  in settings, as well as add section names
+					+ Compress some textures with godot's tools
+					+ Pause the game and limit framerate if the player
+					  is not focusing on the game (W.I.P)
+					
+	Month 1, Day 5 FINISH DAY:	+ Added mobile joystick that lets the player
+	                  change its position by pressing on the area outside of it
+					+ Add level 29 (just like in the original game), but the flying gun shoots bullets faster
+					+ Add level 30 (just like in the original game)
+					+ Add congratulations message when the player completes the game
+					+ Change background tiles to gold if the game is completed
+					+ Make trailer video/thumbnail, and hopefully devlog more about 1.4 or a patch perhaps small content update
+					
